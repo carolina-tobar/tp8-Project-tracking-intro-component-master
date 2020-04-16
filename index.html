@@ -8,11 +8,7 @@
   
   <title>Frontend Mentor | Project tracking intro component</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
   <header class="header">
@@ -26,18 +22,19 @@
           <li class="nav-bar__item">Features</li>
           <li class="nav-bar__item">Pricing</li>
           <li class="nav-bar__item">Login</li>
-      </div>
     </nav>
   </header>
   <main>
-    <img src="images/illustration-devices.svg" alt="Devices" class="main__illustration">
+    <div class="img">
+      <img src="images/illustration-devices.svg" alt="Devices" class="main__illustration">
+    </div>
     <div class="main__text">
-      <h2 class="main__title"><span>New</span> Monograph Dashboard</h2>
+      <h2 class="main__title"><span class="main__title--mod">New</span> Monograph Dashboard</h2>
       <h1 class="main__subtitle">Powerful insights into your team</h1>
       <p class="main__description">Project planning and time tracking for agile teams</p>
-      <div class="action">
+      <div class="btn-container">
         <button class="button">Schedule a demo</button>
-        <div class="main__button-text"></div>  
+        <div class="main__button-text">to see a preview</div>  
       </div>
     </div>
   </main>
